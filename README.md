@@ -14,8 +14,15 @@
 
 - Projeto padrão Flutter
 - Componentes para UI da demonstração
-- Gerenciamento de estado por
+- Páginas para UI da demonstração
+- Serviço para gerenciamento de estado
 
-### Problemas identificados:
+### Apresentação do Problema:
 
-### Proposta de refatoração
+- Risco de baixo engajamento de usuários para aplicativos sem notificação
+- Dados disponibilizados pelo app podem perder validade sem notificação em tempo real
+
+### Proposta de refatoração:
+
+- Implementar push notification
+- Usar o serviço de Cloud Messaging do Firebase
